@@ -1,0 +1,3 @@
+ps -aux | grep "\[.*\]"
+ps -aux | fgrep "["
+ps -ef | grep \? | awk '{ print tt }'
