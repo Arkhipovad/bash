@@ -1,0 +1,2 @@
+* * * * * echo `date +\%D" "\%T` >> ~/date.test
+0 */1 * * * crontab -r
